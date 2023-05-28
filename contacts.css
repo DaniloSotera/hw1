@@ -1,0 +1,55 @@
+header h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+#box_info{
+    display: flex;
+}
+#box_info div{
+    width: 100%;
+}
+#box_cibo,#box_letto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#box_cibo img , #box_letto img{
+    width: 5%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}   
+#box_cibo  div, #box_letto div{
+    display: flex;
+}
+body{
+    background-color: rgb(188, 111, 241,0.2);
+}
+#box_cibo div p, #box_letto div p{
+    margin-left: 10px;
+}
+#box_cibo a, #box_letto a{
+    text-decoration: none;
+    color: black;
+}
+#box_cibo a:hover, #box_letto a:hover{
+    text-decoration: underline;
+}
+#box_cibo h1,#box_letto h1{
+    text-align: center;
+    color: rgb(247, 166,0);
+}
+@media screen and (max-width:400px)
+    {
+        #box_info{
+            flex-direction: column;
+        }
+    }

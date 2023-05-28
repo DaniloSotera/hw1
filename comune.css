@@ -1,0 +1,145 @@
+  
+  #header_mio{
+    color: white;
+    background-image: url('../hw1/imgm/cordoni.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#container_button{
+    padding: 5px;
+}
+
+#overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background-color: rgba(82, 5, 123,0.15);
+    width: 100%;
+    height: 100%;
+}
+#header_mio nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 1.5em;
+    padding: 20px;
+    height: 5%;
+}
+#links{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#header_mio nav button{
+    background-color: transparent;
+    border: none;
+    margin-right: 0 px;
+    
+}
+#header_mio nav button img{
+    height: 30px;
+    width: 50px;
+    
+}
+#header_mio nav a img{
+    height: 65px;
+    width: 210px;
+    
+}
+#header_mio nav button{
+    cursor: pointer;
+}
+#container_button {
+    padding: 5px;
+}
+#nav_button_home img:hover {
+    content: url(../hw1/imgm/fi-sr-home.svg);
+}
+#nav_button_phone img:hover {
+    content: url('../hw1/imgm/fi-sr-phone-call.svg');
+}
+#nav_button_marker img:hover {
+    content: url('../hw1/imgm/fi-sr-marker.svg');
+}
+#nav_button_user img:hover {
+    content: url('../hw1/imgm/fi-sr-user.svg');
+}
+#nav_button_logout img:hover {
+    content: url('../hw1/imgm/fi-sr-sign-out-alt.svg');
+}
+#menu{
+    display: none;
+    }
+#menu div {
+    width: 25px;
+    height: 3px;
+    background-color: red;
+    margin: 5px 0;  
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgb(188, 111, 241,0.2);
+}
+#footer_mio{
+    background-color: rgb(31,31,31);
+    color: var(--back-color);
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container a{
+    cursor: pointer;
+}
+.container a:hover{
+    color: rgb(188, 111, 241);
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.hidden{
+    display: none !important;
+}  
+.flex{
+    display: flex !important;
+}
+.container_button_piccolo{
+    width: 10%;
+}
+.container_button_piccolo img{
+    padding: 5px 0px;
+    width: 80%;
+}
+@media screen and (max-width:400px) {
+    #container_button{
+        display:none;
+    }
+    #menu{
+        display: flex;
+        flex-direction: column;
+    }
+    #header_mio nav a img{
+        height: 36px;
+        width: 114px;
+        
+    }
+}

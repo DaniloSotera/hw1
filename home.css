@@ -1,0 +1,575 @@
+:root {
+    --primary-color: rgba(137, 44, 220, 0.9);
+     
+    --back-color :rgba(188, 111, 241, 0.274); 
+}
+#header_mio{
+    color: white;
+    background-image: url('../hw1/imgm/cordoni.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background-color: rgba(82, 5, 123,0.15);
+    width: 100%;
+    height: 100%;
+}
+
+#body_mio{
+    margin: 0;
+    background-color: var(--primary-color);
+}
+#header_mio nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 1.5em;
+    padding: 20px;
+    height: 5%;
+}
+#header_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    font-size: 80%;
+    
+}
+#links{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#container_button {
+    padding: 5px;
+}
+#header_mio nav button{
+    background-color: transparent;
+    border: none;
+    margin-right: 0 px;
+    
+}
+#header_mio nav button img{
+    height: 30px;
+    width: 50px;
+    
+}
+#header_mio nav a img{
+    height: 65px;
+    width: 210px;
+    
+}
+#header_mio nav button{
+    cursor: pointer;
+}
+#nav_button_home img:hover {
+    content: url(../hw1/imgm/fi-sr-home.svg);
+}
+#nav_button_phone img:hover {
+    content: url('../hw1/imgm/fi-sr-phone-call.svg');
+}
+#nav_button_marker img:hover {
+    content: url('../hw1/imgm/fi-sr-marker.svg');
+}
+#nav_button_user img:hover {
+    content: url('../hw1/imgm/fi-sr-user.svg');
+}
+#nav_button_logout img:hover {
+    content: url('../hw1/imgm/fi-sr-sign-out-alt.svg');
+}
+#tamburi img:hover{
+    content: url('../hw1/imgm/drum_l.png');
+}
+#tamburi img{
+    height: 20px;
+    width: 20px;
+    margin: 0px;
+    position: relative;
+    z-index: 6;
+}
+
+#menu{
+    display: none;
+    }
+#menu div {
+    width: 25px;
+    height: 3px;
+    background-color: red;
+    margin: 5px 0;
+    }
+#footer_mio{
+    background-color: rgb(31,31,31);
+    color: var(--back-color);
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  
+  ul.festivals {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  ul.festivals li {
+    margin-bottom: 10px;
+  }
+  
+  ul.festivals li a {
+    text-decoration: none;
+    color: rgb(247, 166,0);
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  ul.festivals li a:hover {
+    color: #666;
+  }
+  
+  .social-media {
+    
+    font-size: 24px;
+  }
+  
+  .social-media a {
+    color: #333;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    color: #666;
+  }
+#header_foto_santo,#header_foto_scritta{
+    background-color: initial;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    margin: 0 10px;
+    object-fit: contain;
+}
+#container_logo{
+    display: flex;
+    flex-direction: column;
+}
+#container_logo div img{
+    background-color: transparent;
+    border: none;
+    margin: 15px 15px ;
+    height: 30px;
+    width: 30px;
+}
+.container_info{
+    display: flex;
+    align-items:center;
+    font-size: 16px;
+}
+.container_info p{
+    margin: 0 10px;
+    font-size: 1.3em;
+}
+#presentazione{
+    background-image: url(../hw1/imgm/ponte.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    
+}
+
+#presentazione_premi{
+    color: white;
+    background-image: url(../hw1/imgm/foto-home-enjoy-troina-5-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#presentazione_eventi{
+    color: white;
+    background-image: url(../hw1/imgm/ritorno.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+#presentazione div{
+    height: 224px;
+    width: 273px;
+    background-color: #000;
+    margin: 0px 20px;
+    overflow: hidden;
+    
+    
+}
+#presentazione_premi div,#presentazione_eventi div{
+    width: 21%;
+    min-height: 200px;
+    background-color: #000;
+    margin: 0px 20px;
+    overflow: hidden;
+}
+section#modal-view div#window{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 60%;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255);
+    z-index: 100;
+}
+div#presentazione_eventi{ 
+    position: relative;
+}
+#presentazione div h1,#presentazione_premi div h1,#presentazione_eventi div h1{
+    color:rgb(247, 166,0);
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1em;
+    font-weight: 300;
+    font-size: 200%;
+    margin: 20px 10px;
+    overflow: hidden; 
+}
+#presentazione div p,#presentazione_premi div p,#presentazione_eventi div p{
+    color: white;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1em;
+    font-weight: 200;
+    font-size: 150%;
+    margin: 20px 10px;
+    overflow: hidden; 
+    
+}
+#presentazione_premi div img,#presentazione_eventi div img{ 
+    display: flex;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #afafaf;
+    border-radius: 50%;
+    box-shadow: 0px 5px 25px rgba(135,135,135,0.54);
+    width: 35%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#div_nero{
+    height: 500px;
+    background-color: #000;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+#foto_b_n img{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+#contenitore_scritte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 200;
+}
+.scritta_giallo_speciale{
+    color:rgb(247, 166,0);
+    font-style: italic;
+    margin: 10px 0;
+    line-height: 1.3em;
+}
+#blocco_rosso{
+    background-color: #FF4F4F;
+    width: 75px;
+    height: 50px;
+    display: block;
+    z-index: -1;
+    margin: 0% 0% -7% 15%;
+    padding: 0% 0% 0% 0%;
+}
+#blocco_giallo{
+    background-color: #EEEE22;
+    width: 75px;
+    height: 50px;
+    display: block;
+    z-index: -2;
+    margin: -5% 0% 0% 10%;
+    padding: 0% 0% 0% 0%;
+}
+.hidden {
+    display: none !important;
+  }
+section#modal-view.hidden {
+    display: none;
+  }
+section#modal-view{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+  
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section#modal-view img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+#window div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 49.999%;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    transform: translate(-50%, -50%);
+    overflow: auto;
+}
+#window div::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  
+  /* Stile per il track della barra di scorrimento */
+  #window div::-webkit-scrollbar-track {
+    background: #f2f2f2;
+  }
+  
+  /* Stile per il thumb della barra di scorrimento */
+  #window div::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  /* Stile per il thumb della barra di scorrimento quando viene passato con il mouse */
+  #window div::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+div#window img{
+    width: 30%;
+    height: 50%;
+    display: unset;
+    max-height: unset;
+    position: unset;
+    max-width: unset;
+    border-width: unset;
+    border-style: unset;
+    border-color:unset;
+    border-radius: unset;
+    box-shadow: unset;
+    margin-right: unset;
+    margin-left: unset;
+}
+#window button img{
+    background-color: transparent;
+    border: none;
+    height: 26px;
+    width: 30px;
+}
+#window button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    z-index: 10;
+    background-color: transparent;
+    border: none;
+}
+#window button img:hover{
+    content: url(../hw1/imgm/fi-sr-star.png);
+    cursor: pointer;
+}
+.selected{
+    content: url(../hw1/imgm/fi-sr-star.png);
+}
+
+.immagine_meteo{
+    width: 50%;
+    height: 50%;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.flex{
+    display: flex !important;
+}
+.container_button_piccolo{
+    width: 10%;
+}
+.container_button_piccolo img{
+    padding: 5px 0px;
+    width: 80%;
+}
+@media screen and (max-width:400px) {
+        #container_button{
+            display:none;
+        }
+        #menu{
+            display: flex;
+            flex-direction: column;
+        }
+        #presentazione {
+            height: 400px;
+            flex-direction: column;
+        }
+        #presentazione_premi{
+            height: 700px;
+            flex-direction: column;
+        }
+        #presentazione div{
+            width: 45%;
+            height: 100px;
+            margin: 20px 10px;
+            overflow-y: scroll;
+          }
+        #presentazione_premi div{
+            width: 60%;
+            height: 100px !important;
+            margin: 10px 10px;
+          
+        }
+        #presentazione_premi div h1{
+            font-size: 140%;
+            margin: 10px;
+        }
+        #presentazione_premi div p{
+            font-size: 100%;
+            margin: 10px;
+            max-height: 44px;
+            overflow-y: scroll;
+        }
+        #presentazione div h1{
+            font-size: 140%;
+            margin: 10px;
+            text-align: center;
+        }
+        #presentazione div p{
+            font-size: 100%;
+            margin: 10px;
+            
+        }
+        #presentazione_eventi{
+            height: 700px;
+            flex-direction: column;
+        }
+        #presentazione_eventi div{
+            width: 60%;
+            height: 100px;
+            margin: 10px 10px;
+        }
+        #presentazione_eventi div h1{
+            font-size: 140%;
+            margin: 10px;
+            line-height: 0.8em;
+            text-align: center;
+            
+        }
+        #presentazione_eventi div p{
+            margin: 10px ;
+            margin-left: 30px;
+            margin-right: 30px;
+            
+        }
+        #header_2 div{
+            margin: 0px 20px;
+        }
+        #header_foto_santo{
+            width: 120px;
+        }
+       
+        #container_logo div,#header_2 div{
+            margin-left: 0px;
+            font-size: 14px;
+        }
+
+        #contenitore_scritte{
+            font-size: 80%;
+        }
+        #header_2{
+            flex-direction: column;
+        }
+        #header_mio nav a img{
+            height: 36px;
+            width: 114px;
+            
+        }
+        #window div{
+            width: 80%;
+            height: 50%;
+            position: absolute;
+            top: 49.999%;
+            left: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            
+            transform: translate(-50%, -50%);
+            overflow: auto;
+        }
+        section#modal-view div#window{
+            height: 31%;
+            margin: 0px;
+            background-color: unset;
+            position: unset;
+        }
+        div#window img{
+            width: 100%;
+            height: 60%;
+        }
+        div#window button img{
+            height: 26px;
+        }
+        
+}
